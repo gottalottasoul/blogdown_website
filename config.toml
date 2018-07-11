@@ -1,0 +1,4 @@
+theme = "hugo-theme-casper"
+baseURL = "/"
+languageCode = "en-us"
+title = "Blake's R Blog"
