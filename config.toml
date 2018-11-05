@@ -2,5 +2,14 @@ theme = "hugo-theme-casper"
 baseURL = "/"
 languageCode = "en-us"
 title = "Blake's R Blog"
-# Enable analytics by entering your Google Analytics tracking ID
-GoogleAnalytics = "UA-4974577-3"
+
+[params]
+  description = "My not-so-polished blog about R"
+  metadescription = "Used as 'description' meta tag for both home and index pages. If not set, 'description' will be used instead"
+  googleAnalyticsUserID = "UA-4974577-3"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = "http://feeds.feedburner.com/..."
+  githubName = "gottalottasoul"
+  twitterName = "gottalottasoul"
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = true
