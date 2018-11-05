@@ -2,3 +2,5 @@ theme = "hugo-theme-casper"
 baseURL = "/"
 languageCode = "en-us"
 title = "Blake's R Blog"
+# Enable analytics by entering your Google Analytics tracking ID
+GoogleAnalytics = "UA-4974577-3"
